@@ -1,0 +1,5 @@
+isochrones:
+  https://stev.oapd.inaf.it/cgi-bin/cmd
+
+hunt data:
+ https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/686/A42 

@@ -1,0 +1,11 @@
+./tables/members/ngc_6633.csv
+./tables/members/ngc_2682.csv
+./tables/members/melotte_111.csv
+./tables/members/ngc_2516.csv
+./tables/members/stock_2.csv
+./tables/members/ngc_3532.csv
+./tables/members/alessi_62.csv
+./tables/members/melotte_25.csv
+./tables/members/melotte_22.csv
+./tables/members/alessi_13.csv
+./tables/members/ngc_2632.csv

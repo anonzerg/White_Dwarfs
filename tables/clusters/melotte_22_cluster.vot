@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VOTABLE version="1.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.ivoa.net/xml/VOTable/v1.3"
+  xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/v1.3">
+ <DESCRIPTION>
+   VizieR Astronomical Server vizier.cds.unistra.fr
+    Date: 2025-07-05T09:38:53 [V7.5.1]
+   Explanations and Statistics of UCDs:			See LINK below
+   In case of problem, please report to:	cds-question@unistra.fr
+ </DESCRIPTION>
+<!-- VOTable description at http://www.ivoa.net/Documents/latest/VOT.html -->
+<INFO name="service_protocol" value="ASU">  IVOID of the protocol through which the data was retrieved</INFO>
+<INFO name="request_date" value="2025-07-05T09:38:53">  Query execution date</INFO>
+<INFO name="request" value="https://vizier.cds.unistra.fr/viz-bin/votable?-oc.form=dec&amp;-out.max=50&amp;-out.all=2&amp;-order=I&amp;-out.src=J/A+A/686/A42/clusters&amp;-c.eq=J2000&amp;-c.r=  2&amp;-c.u=arcmin&amp;-c.geom=r&amp;-source=J/A+A/686/A42/clusters&amp;-out=Name&amp;Name=melotte_22&amp;-out=ID&amp;-out=AllNames&amp;-out=Type&amp;-out=CST&amp;-out=N&amp;-out=CSTt&amp;-out=Nt&amp;-out=RA_ICRS&amp;-out=DE_ICRS&amp;-out=GLON&amp;-out=GLAT&amp;-out=r50&amp;-out=rc&amp;-out=rt&amp;-out=rtot&amp;-out=r50pc&amp;-out=rcpc&amp;-out=rtpc&amp;-out=rtotpc&amp;-out=pmRA&amp;-out=s_pmRA&amp;-out=e_pmRA&amp;-out=pmDE&amp;-out=s_pmDE&amp;-out=e_pmDE&amp;-out=Plx&amp;-out=s_Plx&amp;-out=e_Plx&amp;-out=dist16&amp;-out=dist50&amp;-out=dist84&amp;-out=Ndist&amp;-out=globalPlx&amp;-out=X&amp;-out=Y&amp;-out=Z&amp;-out=RV&amp;-out=s_RV&amp;-out=e_RV&amp;-out=n_RV&amp;-out=CMDCl2.5&amp;-out=CMDCl16&amp;-out=CMDCl50&amp;-out=CMDCl84&amp;-out=CMDCl97.5&amp;-out=CMDClHuman&amp;-out=logAge16&amp;-out=logAge50&amp;-out=logAge84&amp;-out=AV16&amp;-out=AV50&amp;-out=AV84&amp;-out=diffAV16&amp;-out=diffAV50&amp;-out=diffAV84&amp;-out=MOD16&amp;-out=MOD50&amp;-out=MOD84&amp;-out=r50J&amp;-out=rJ&amp;-out=r50Jpc&amp;-out=rJpc&amp;-out=probJ&amp;-out=NJ&amp;-out=MassJ&amp;-out=e_MassJ&amp;-out=MassTot&amp;-out=e_MassTot&amp;-out=minClSize&amp;-out=isMerged&amp;-out=isGMMMemb&amp;-out=NXmatches&amp;-out=XmatchType&amp;-out=Note&amp;-out=_RA.icrs&amp;-out=_DE.icrs&amp;">  Full request URL (POST)</INFO>
+<INFO name="contact" value="cds-question@unistra.fr">  Email or URL to contact publisher</INFO>
+<INFO name="server_software" value="7.5.1">  Software version</INFO>
+<INFO name="publisher" value="CDS">  Data centre that produced the VOTable</INFO>
+
+<!--
+Execution Reports
+ -->
+
+<RESOURCE ID="yCat_36860042" name="J/A+A/686/A42" type="results">
+  <DESCRIPTION>Improving the open cluster census. III. (Hunt+, 2024)</DESCRIPTION>  <INFO name="ivoid" value="ivo://cds.vizier/j/a+a/686/a42">    IVOID of underlying data collection  </INFO>
+  <INFO name="creator" value="Hunt E.L.">    First author or institution  </INFO>
+  <INFO name="cites" value="bibcode:2024A&amp;A...686A..42H">    Article or Data origin sources  </INFO>
+  <INFO name="editor" value="Astronomy and Astrophysics">    Editor name (article)  </INFO>
+  <INFO name="original_date" value="2024">    Year of the article publication  </INFO>
+  <INFO name="reference_url" value="https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/686/A42">    Dataset landing page  </INFO>
+  <INFO name="citation" value="doi:10.26093/cds/vizier.36860042">    Dataset identifier that can be used for citation  </INFO>
+  <INFO name="publication_date" value="2024-11-21">    Date of first publication in the data centre  </INFO>
+  <INFO name="rights_uri" value="https://cds.unistra.fr/vizier-org/licences_vizier.html">    Licence URI  </INFO>
+
+  <COOSYS ID="H_2016.000" system="ICRS" epoch="2016.000"/>
+  <TABLE ID="J_A_A_686_A42_clusters" name="J/A+A/686/A42/clusters">
+    <DESCRIPTION>Main catalogue (table 1)</DESCRIPTION>
+    <!-- Definitions of GROUPs and FIELDs -->
+    <FIELD name="recno" ucd="meta.record" datatype="int" width="8" type="hidden"><!-- ucd="RECORD" -->
+      <DESCRIPTION>Record number assigned by the VizieR team. Should Not be used for identification.</DESCRIPTION>
+      <LINK href="http://vizier.cds.unistra.fr/viz-bin/VizieR-5?-info=XML&amp;-out.add=.&amp;-source=J/A+A/686/A42/clusters&amp;recno=${recno}"/>
+    </FIELD>
+    <FIELD name="Name" ucd="meta.id;meta.main" datatype="char" arraysize="20*"><!-- ucd="ID_MAIN" -->
+      <DESCRIPTION>Main accepted cluster name</DESCRIPTION>
+      <LINK href="http://vizier.cds.unistra.fr/viz-bin/VizieR-5?-info=XML&amp;-out.add=.&amp;-source=J/A+A/686/A42/clusters&amp;recno=${recno}"/>
+    </FIELD>
+    <FIELD name="ID" ucd="meta.id" datatype="short" width="4"><!-- ucd="ID_IDENTIFIER" -->
+      <DESCRIPTION>Internal cluster ID</DESCRIPTION>
+      <LINK href="http://vizier.cds.unistra.fr/viz-bin/VizieR-4?-info=XML&amp;-out.add=.&amp;-source=J/A+A/686/A42/clusters,crossma&amp;ID=${ID}"/>
+    </FIELD>
+    <FIELD name="AllNames" ucd="meta.id" datatype="char" arraysize="253*"><!-- ucd="ID_ALTERNATIVE" -->
+      <DESCRIPTION>Comma separated list of all cluster names this object crossmatched against and all name variants</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Type" ucd="src.class" datatype="char" arraysize="1"><!-- ucd="CLASS_OBJECT" -->
+      <DESCRIPTION>[omgdr] Estimated type of object (1)</DESCRIPTION>
+      <LINK href="http://vizier.cds.unistra.fr/viz-bin/VizieR?-6N&amp;-info=XML&amp;-out.add=.&amp;&amp;lt;&amp;quot;Note&amp;quot;&amp;catid=36860042&amp;notid=1&amp;-out.emph=${Type}"/>
+    </FIELD>
+    <FIELD name="CST" ucd="stat.snr" datatype="double" width="11" precision="8"><!-- ucd="INST_S/N" -->
+      <DESCRIPTION>[3/99] Astrometric SNR (cluster significance test) (2)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="N" ucd="meta.number" datatype="int" width="6"><!-- ucd="NUMBER" -->
+      <DESCRIPTION>[10/153797] Number of member stars</DESCRIPTION>
+      <LINK href="http://vizier.cds.unistra.fr/viz-bin/VizieR-4?-info=XML&amp;-out.add=.&amp;-source=J/A+A/686/A42/clusters,members&amp;ID=${ID}"/>
+    </FIELD>
+    <FIELD name="CSTt" ucd="stat.snr" datatype="double" width="11" precision="8"><!-- ucd="INST_S/N" -->
+      <DESCRIPTION>[2.9/99] Astrometric SNR within tidal radius</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Nt" ucd="meta.number" datatype="int" width="5"><!-- ucd="NUMBER" -->
+      <DESCRIPTION>[10/53464] Number of stars within tidal radius</DESCRIPTION>
+    </FIELD>
+    <FIELD name="RA_ICRS" ucd="pos.eq.ra;meta.main" ref="H_2016.000" datatype="double" width="12" precision="8" unit="deg"><!-- ucd="POS_EQ_RA_MAIN" -->
+      <DESCRIPTION>Right ascension of densest point (ICRS) at Ep=2016.0</DESCRIPTION>
+    </FIELD>
+    <FIELD name="DE_ICRS" ucd="pos.eq.dec;meta.main" ref="H_2016.000" datatype="double" width="12" precision="8" unit="deg"><!-- ucd="POS_EQ_DEC_MAIN" -->
+      <DESCRIPTION>Declination of densest point (ICRS) at Ep=2016.0</DESCRIPTION>
+    </FIELD>
+    <FIELD name="GLON" ucd="pos.galactic.lon" datatype="double" width="12" precision="8" unit="deg"><!-- ucd="POS_GAL_LON" -->
+      <DESCRIPTION>Galactic longitude</DESCRIPTION>
+    </FIELD>
+    <FIELD name="GLAT" ucd="pos.galactic.lat" datatype="float" width="10" precision="E3" unit="deg"><!-- ucd="POS_GAL_LAT" -->
+      <DESCRIPTION>Galactic latitude</DESCRIPTION>
+    </FIELD>
+    <FIELD name="r50" ucd="phys.angSize" datatype="double" width="11" precision="8" unit="deg"><!-- ucd="EXTENSION_RAD" -->
+      <DESCRIPTION>Radius containing 50% of members within the tidal radius</DESCRIPTION>
+    </FIELD>
+    <FIELD name="rc" ucd="phys.angSize;src" datatype="double" width="11" precision="8" unit="deg"><!-- ucd="EXTENSION_RAD" -->
+      <DESCRIPTION>Core radius (approximate estimate)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="rt" ucd="phys.angSize;src" datatype="double" width="11" precision="8" unit="deg"><!-- ucd="EXTENSION_RAD" -->
+      <DESCRIPTION>Tidal radius (approximate estimate)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="rtot" ucd="phys.angSize" datatype="double" width="11" precision="8" unit="deg"><!-- ucd="EXTENSION_RAD" -->
+      <DESCRIPTION>Total radius (including tidal tails, coma, etc)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="r50pc" ucd="phys.size.radius" datatype="double" width="13" precision="8" unit="pc"><!-- ucd="PHYS_SIZE_RADIUS_GENERAL" -->
+      <DESCRIPTION>Radius containing 50% of members in parsecs</DESCRIPTION>
+    </FIELD>
+    <FIELD name="rcpc" ucd="phys.size.radius" datatype="double" width="13" precision="8" unit="pc"><!-- ucd="PHYS_SIZE_RADIUS_GENERAL" -->
+      <DESCRIPTION>Core radius in parsecs</DESCRIPTION>
+    </FIELD>
+    <FIELD name="rtpc" ucd="phys.size.radius" datatype="double" width="13" precision="8" unit="pc"><!-- ucd="PHYS_SIZE_RADIUS_GENERAL" -->
+      <DESCRIPTION>Tidal radius in parsecs</DESCRIPTION>
+    </FIELD>
+    <FIELD name="rtotpc" ucd="phys.size.radius" datatype="double" width="13" precision="8" unit="pc"><!-- ucd="PHYS_SIZE_RADIUS_GENERAL" -->
+      <DESCRIPTION>Total radius in parsecs</DESCRIPTION>
+    </FIELD>
+    <FIELD name="pmRA" ucd="pos.pm;pos.eq.ra" ref="H_2016.000" datatype="double" width="13" precision="8" unit="mas/yr"><!-- ucd="POS_EQ_PMRA" -->
+      <DESCRIPTION>Mean proper motion in right ascension multiplied by cos(dec)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="s_pmRA" ucd="stat.stdev" datatype="double" width="11" precision="8" unit="mas/yr"><!-- ucd="ERROR" -->
+      <DESCRIPTION>Standard deviation of pmra</DESCRIPTION>
+    </FIELD>
+    <FIELD name="e_pmRA" ucd="stat.error;pos.pm;pos.eq.ra" datatype="double" width="11" precision="8" unit="mas/yr"><!-- ucd="ERROR" -->
+      <DESCRIPTION>Standard error of pmra</DESCRIPTION>
+    </FIELD>
+    <FIELD name="pmDE" ucd="pos.pm;pos.eq.dec" ref="H_2016.000" datatype="double" width="12" precision="8" unit="mas/yr"><!-- ucd="POS_EQ_PMDEC" -->
+      <DESCRIPTION>Mean proper motion in declination</DESCRIPTION>
+    </FIELD>
+    <FIELD name="s_pmDE" ucd="stat.stdev" datatype="double" width="11" precision="8" unit="mas/yr"><!-- ucd="ERROR" -->
+      <DESCRIPTION>Standard deviation of pmdec</DESCRIPTION>
+    </FIELD>
+    <FIELD name="e_pmDE" ucd="stat.error;pos.pm;pos.eq.dec" datatype="double" width="11" precision="8" unit="mas/yr"><!-- ucd="ERROR" -->
+      <DESCRIPTION>Standard error of pmdec</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Plx" ucd="pos.parallax;stat.mean" datatype="double" width="12" precision="8" unit="mas"><!-- ucd="POS_PARLX_TRIG" -->
+      <DESCRIPTION>Mean parallax</DESCRIPTION>
+    </FIELD>
+    <FIELD name="s_Plx" ucd="stat.stdev;pos.parallax" datatype="double" width="11" precision="8" unit="mas"><!-- ucd="ERROR" -->
+      <DESCRIPTION>Standard deviation of parallax</DESCRIPTION>
+    </FIELD>
+    <FIELD name="e_Plx" ucd="stat.error;pos.parallax" datatype="double" width="11" precision="8" unit="mas"><!-- ucd="ERROR" -->
+      <DESCRIPTION>Standard error of parallax</DESCRIPTION>
+    </FIELD>
+    <FIELD name="dist16" ucd="pos.distance" datatype="double" width="15" precision="8" unit="pc"><!-- ucd="PHYS_DISTANCE_TRUE" -->
+      <DESCRIPTION>16th percentile of maximum likelihood distance</DESCRIPTION>
+    </FIELD>
+    <FIELD name="dist50" ucd="pos.distance" datatype="double" width="15" precision="8" unit="pc"><!-- ucd="PHYS_DISTANCE_TRUE" -->
+      <DESCRIPTION>50th percentile of maximum likelihood distance</DESCRIPTION>
+    </FIELD>
+    <FIELD name="dist84" ucd="pos.distance" datatype="double" width="16" precision="8" unit="pc"><!-- ucd="PHYS_DISTANCE_TRUE" -->
+      <DESCRIPTION>84th percentile of maximum likelihood distance</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Ndist" ucd="meta.number" datatype="int" width="5"><!-- ucd="NUMBER" -->
+      <DESCRIPTION>Number of stars used for distance calculation</DESCRIPTION>
+    </FIELD>
+    <FIELD name="globalPlx" ucd="meta.code" datatype="unsignedByte" width="1"><!-- ucd="CODE_MISC" -->
+      <DESCRIPTION>[0/1] Flag indicating clusters for which a star-by-star parallax offset correction was not possible during distance calculation</DESCRIPTION>
+    </FIELD>
+    <FIELD name="X" ucd="pos.cartesian.x;pos.galactic;pos.heliocentric" datatype="double" width="16" precision="8" unit="pc"><!-- ucd="POS_GAL_X" -->
+      <DESCRIPTION>X coordinate in heliocentric galactic coordinates</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Y" ucd="pos.cartesian.y;pos.galactic;pos.heliocentric" datatype="double" width="16" precision="8" unit="pc"><!-- ucd="POS_GAL_Y" -->
+      <DESCRIPTION>Y coordinate in heliocentric galactic coordinates</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Z" ucd="pos.cartesian.z;pos.galactic;pos.heliocentric" datatype="double" width="16" precision="8" unit="pc"><!-- ucd="POS_GAL_Z" -->
+      <DESCRIPTION>Z coordinate in heliocentric galactic coordinates</DESCRIPTION>
+    </FIELD>
+    <FIELD name="RV" ucd="phys.veloc;pos.heliocentric" datatype="double" width="13" precision="8" unit="km/s"><!-- ucd="VELOC_HC" -->
+      <DESCRIPTION>? Mean Gaia DR3 radial velocity</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="s_RV" ucd="stat.stdev;spect.dopplerVeloc" datatype="double" width="13" precision="8" unit="km/s"><!-- ucd="ERROR" -->
+      <DESCRIPTION>? Standard deviation of radial velocity</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="e_RV" ucd="stat.error" datatype="double" width="13" precision="8" unit="km/s"><!-- ucd="ERROR" -->
+      <DESCRIPTION>? Standard error of radial velocity</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="n_RV" ucd="meta.note" datatype="short" width="4"><!-- ucd="NOTE" -->
+      <DESCRIPTION>Number of member stars with a radial velocity</DESCRIPTION>
+    </FIELD>
+    <FIELD name="CMDCl2.5" ucd="meta.code" datatype="float" width="10" precision="E3"><!-- ucd="CODE_MISC" -->
+      <DESCRIPTION>[0/1] 2.5th percentile of CMD class</DESCRIPTION>
+    </FIELD>
+    <FIELD name="CMDCl16" ucd="meta.code" datatype="float" width="10" precision="E3"><!-- ucd="CODE_MISC" -->
+      <DESCRIPTION>[0/1] 16th percentile of CMD class</DESCRIPTION>
+    </FIELD>
+    <FIELD name="CMDCl50" ucd="meta.code" datatype="double" width="11" precision="8"><!-- ucd="CODE_MISC" -->
+      <DESCRIPTION>[0/1] 50th percentile of CMD class</DESCRIPTION>
+    </FIELD>
+    <FIELD name="CMDCl84" ucd="meta.code" datatype="double" width="11" precision="8"><!-- ucd="CODE_MISC" -->
+      <DESCRIPTION>[0/1] 84th percentile of CMD class</DESCRIPTION>
+    </FIELD>
+    <FIELD name="CMDCl97.5" ucd="meta.code" datatype="double" width="11" precision="8"><!-- ucd="CODE_MISC" -->
+      <DESCRIPTION>[0/1] 97.5th percentile of CMD class</DESCRIPTION>
+    </FIELD>
+    <FIELD name="CMDClHuman" ucd="meta.code" datatype="char" arraysize="3"><!-- ucd="CODE_MISC" -->
+      <DESCRIPTION>Human-assigned CMD class (where available) (3)</DESCRIPTION>
+      <LINK href="http://vizier.cds.unistra.fr/viz-bin/VizieR?-6N&amp;-info=XML&amp;-out.add=.&amp;&amp;lt;&amp;quot;Note&amp;quot;&amp;catid=36860042&amp;notid=3&amp;-out.emph=${CMDClHuman}"/>
+    </FIELD>
+    <FIELD name="logAge16" ucd="time.age" datatype="double" width="11" precision="8" unit="log(yr)"><!-- ucd="TIME_AGE" -->
+      <DESCRIPTION>? 16th percentile of logarithm of cluster age</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="logAge50" ucd="time.age" datatype="double" width="11" precision="8" unit="log(yr)"><!-- ucd="TIME_AGE" -->
+      <DESCRIPTION>? 50th percentile of logarithm of cluster age</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="logAge84" ucd="time.age" datatype="double" width="12" precision="8" unit="log(yr)"><!-- ucd="TIME_AGE" -->
+      <DESCRIPTION>? 84th percentile of logarithm of cluster age</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="AV16" ucd="phys.absorption" datatype="float" width="10" precision="E3" unit="mag"><!-- ucd="PHOT_EXTINCTION_INT" -->
+      <DESCRIPTION>? 16th percentile of V-band cluster extinction</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="AV50" ucd="phys.absorption" datatype="double" width="11" precision="8" unit="mag"><!-- ucd="PHOT_EXTINCTION_INT" -->
+      <DESCRIPTION>? 50th percentile of V-band cluster extinction</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="AV84" ucd="phys.absorption" datatype="double" width="11" precision="8" unit="mag"><!-- ucd="PHOT_EXTINCTION_INT" -->
+      <DESCRIPTION>? 84th percentile of V-band cluster extinction</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="diffAV16" ucd="phys.absorption;arith.diff" datatype="float" width="10" precision="E3" unit="mag"><!-- ucd="PHOT_EXTINCTION_TOTAL" -->
+      <DESCRIPTION>? 16th percentile of approximate V-band differential extinction</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="diffAV50" ucd="phys.absorption;arith.diff" datatype="double" width="11" precision="8" unit="mag"><!-- ucd="PHOT_EXTINCTION_TOTAL" -->
+      <DESCRIPTION>? 50th percentile of approximate V-band differential extinction</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="diffAV84" ucd="phys.absorption;arith.diff" datatype="double" width="11" precision="8" unit="mag"><!-- ucd="PHOT_EXTINCTION_TOTAL" -->
+      <DESCRIPTION>? 84th percentile of approximate V-band differential extinction</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="MOD16" ucd="phot.mag.distMod" datatype="double" width="12" precision="8" unit="mag"><!-- ucd="PHOT_DIST-MOD" -->
+      <DESCRIPTION>? 16th percentile of photometrically estimated distance modulus</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="MOD50" ucd="phot.mag.distMod" datatype="double" width="12" precision="8" unit="mag"><!-- ucd="PHOT_DIST-MOD" -->
+      <DESCRIPTION>? 50th percentile of photometrically estimated distance modulus</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="MOD84" ucd="phot.mag.distMod" datatype="double" width="12" precision="8" unit="mag"><!-- ucd="PHOT_DIST-MOD" -->
+      <DESCRIPTION>? 84th percentile of photometrically estimated distance modulus</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="r50J" ucd="phys.angSize;src" datatype="double" width="11" precision="8" unit="deg"><!-- ucd="EXTENSION_RAD" -->
+      <DESCRIPTION>? Radius containing 50% of members within the best fitting Jacobi radius</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="rJ" ucd="phys.angSize;src" datatype="double" width="12" precision="8" unit="deg"><!-- ucd="EXTENSION_RAD" -->
+      <DESCRIPTION>? Best fitting Jacobi radius - still defined even for clusters with low Jacobi radius probability</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="r50Jpc" ucd="phys.size.radius" datatype="double" width="12" precision="8" unit="pc"><!-- ucd="PHYS_SIZE_RADIUS_GENERAL" -->
+      <DESCRIPTION>? Radius containing 50% of members within the Jacobi radius in parsecs</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="rJpc" ucd="phys.size.radius" datatype="double" width="13" precision="8" unit="pc"><!-- ucd="PHYS_SIZE_RADIUS_GENERAL" -->
+      <DESCRIPTION>? Jacobi radius in parsecs</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="probJ" ucd="stat.fit.goodness" datatype="float" width="10" precision="E3"><!-- ucd="STAT_PROBABILITY" -->
+      <DESCRIPTION>? Probability of the cluster having a valid Jacobi radius</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="NJ" ucd="meta.number" datatype="short" width="4"><!-- ucd="NUMBER" -->
+      <DESCRIPTION>[9/4171]? Number of stars within best-fit Jacobi radius</DESCRIPTION>
+      <VALUES null="-32768" />
+    </FIELD>
+    <FIELD name="MassJ" ucd="phys.mass" datatype="double" width="15" precision="8" unit="solMass"><!-- ucd="PHYS_MASS_MISC" -->
+      <DESCRIPTION>? Cluster mass within the Jacobi radius</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="e_MassJ" ucd="stat.error" datatype="double" width="15" precision="8" unit="solMass"><!-- ucd="ERROR" -->
+      <DESCRIPTION>? Error on cluster mass within the Jacobi radius</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="MassTot" ucd="phys.mass" datatype="double" width="15" precision="8" unit="solMass"><!-- ucd="PHYS_MASS_MISC" -->
+      <DESCRIPTION>? Total observed cluster mass</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="e_MassTot" ucd="stat.error" datatype="double" width="15" precision="8" unit="solMass"><!-- ucd="ERROR" -->
+      <DESCRIPTION>? Error on total observed cluster mass</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="minClSize" ucd="meta.code.member;instr.setup" datatype="short" width="2"><!-- ucd="CODE_MEMB" -->
+      <DESCRIPTION>[-1/80] HDBSCAN parameter used to construct cluster membership list (-1 for membership lists not made with HDBSCAN)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="isMerged" ucd="meta.code" datatype="unsignedByte" width="1"><!-- ucd="CODE_MISC" -->
+      <DESCRIPTION>[0/1] Flag indicating manually merged cluster membership list</DESCRIPTION>
+    </FIELD>
+    <FIELD name="isGMMMemb" ucd="meta.code" datatype="unsignedByte" width="1"><!-- ucd="CODE_MISC" -->
+      <DESCRIPTION>[0/1] Flag indicating cluster membership list constructed using additional Gaussian mixture model post-processing step</DESCRIPTION>
+    </FIELD>
+    <FIELD name="NXmatches" ucd="meta.number" datatype="short" width="2"><!-- ucd="NUMBER" -->
+      <DESCRIPTION>[0/24] Number of unique crossmatches to this cluster</DESCRIPTION>
+    </FIELD>
+    <FIELD name="XmatchType" ucd="meta.code" datatype="char" arraysize="16*"><!-- ucd="CODE_MISC" -->
+      <DESCRIPTION>Type of crossmatch (4)</DESCRIPTION>
+      <LINK href="http://vizier.cds.unistra.fr/viz-bin/VizieR?-6N&amp;-info=XML&amp;-out.add=.&amp;&amp;lt;&amp;quot;Note&amp;quot;&amp;catid=36860042&amp;notid=4&amp;-out.emph=${XmatchType}"/>
+    </FIELD>
+    <FIELD name="Note" ucd="meta.note" datatype="char" arraysize="33*"><!-- ucd="NOTE" -->
+      <DESCRIPTION>Reason why cluster was rejected</DESCRIPTION>
+    </FIELD>
+    <FIELD name="_RA.icrs" ucd="pos.eq.ra" datatype="double" width="12" precision="8" unit="deg"><!-- ucd="POS_EQ_RA_OTHER" -->
+      <DESCRIPTION>Right ascension (ICRS) at Epoch=J2000, proper motions taken into account</DESCRIPTION>
+<!-- Right Ascension (ICRS, epoch 2000) computed by CDS -->
+
+    </FIELD>
+    <FIELD name="_DE.icrs" ucd="pos.eq.dec" datatype="double" width="12" precision="8" unit="deg"><!-- ucd="POS_EQ_DEC_OTHER" -->
+      <DESCRIPTION>Declination (ICRS) at Epoch=J2000, proper motions taken into account</DESCRIPTION>
+<!-- Declination (ICRS, epoch 2000) computed by CDS -->
+
+    </FIELD>
+<DATA><TABLEDATA>
+<TR><TD>4417</TD><TD>Melotte_22</TD><TD>4423</TD><TD>Collinder_42,Escorial_1,M45,MWSC_305,Melotte_22,OCL_421,Pleiades,Theia_369</TD><TD>o</TD><TD>99.00000000</TD><TD>1721</TD><TD>99.00000000</TD><TD>1014</TD><TD>056.67978318</TD><TD>+24.10845447</TD><TD>166.52495523</TD><TD>-2.357e+01</TD><TD>1.14555306</TD><TD>0.98676432</TD><TD>4.71006552</TD><TD>14.78068304</TD><TD>2.69633296</TD><TD>2.32250585</TD><TD>11.10982531</TD><TD>35.57798936</TD><TD>19.95516294</TD><TD>0.99627374</TD><TD>0.03128670</TD><TD>-45.45667271</TD><TD>1.14009119</TD><TD>0.03580310</TD><TD>7.37826421</TD><TD>0.17393637</TD><TD>0.00546225</TD><TD>134.82289933</TD><TD>134.84134308</TD><TD>134.85979187</TD><TD>907</TD><TD>0</TD><TD>-8242.30016357</TD><TD>28.79970738</TD><TD>-32.81181283</TD><TD>5.34254864</TD><TD>21.88857237</TD><TD>1.09717499</TD><TD>398</TD><TD>9.412e-01</TD><TD>9.911e-01</TD><TD>0.99568957</TD><TD>0.99998295</TD><TD>0.99998295</TD><TD></TD><TD>7.74429512</TD><TD>8.08497238</TD><TD>8.29353523</TD><TD>3.540e-06</TD><TD>0.10209450</TD><TD>0.16589311</TD><TD>1.207e-01</TD><TD>0.63367569</TD><TD>0.96061438</TD><TD>5.42880678</TD><TD>5.59026957</TD><TD>5.71501970</TD><TD>1.53538355</TD><TD>5.79808687</TD><TD>3.61427584</TD><TD>13.69213530</TD><TD>1.000e+00</TD><TD>1639</TD><TD>946.50771693</TD><TD>86.76730235</TD><TD>984.54716424</TD><TD>92.35778673</TD><TD>20</TD><TD>0</TD><TD>0</TD><TD>2</TD><TD>m:m</TD><TD></TD><TD>056.67968601</TD><TD>+24.10865650</TD></TR>
+</TABLEDATA></DATA>
+</TABLE>
+<INFO name="matches" value="1">matching records</INFO>
+
+<INFO name="Warning" value="No center provided++++"/>
+<INFO name="Warning" value="skip recno in all column selection"/>
+</RESOURCE>
+</VOTABLE>
